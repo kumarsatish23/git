@@ -1,0 +1,14 @@
+New-Alias -Name git -Value "C:\Program Files\Git\bin\git.exe"
+git
+git status //red (unstaged)
+git checkout //it makes the changes back to the origin
+git add filename// to make it staged
+git status //green(means staged)
+git commit -m "This is the commit message"// to commit an staged file
+//it asks for aunthentication
+git config --global user.email "gauravkumar0998@gmail.com"
+git config --global user.name "Gaurav Kumar rai"
+git commit -m "This is the updated README" //after aunthentication
+git push origin master//to make changes to server
+git add . //to add everything
+
